@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisa Sofie Mros Communications</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="./img/Logo_rund_coral_freigestellt.jpeg">
+</head>
+
+<body onload="loadAbout()">
+    <div id="burgermenu" class="burgermenu-closed">
+        <span class="menu-link-burgermenu" onclick="openHome()">HOME</span>
+        <span class="menu-link-burgermenu" onclick="openOffer()">ANGEBOT</span>
+        <span class="menu-link-burgermenu" onclick="openAbout()">ÜBER MICH</span>
+        <span class="menu-link-burgermenu" onclick="openBlog()">BLOG</span>
+    </div>
+    <header id="header" class="header">
+    </header>
+    <main onclick="closeBurgerMenu()">
+        <div class="text-section-impressum">
+            <div class="curved-headline">
+                Datenschutzerklärung
+            </div>
+            <span class="text-impressum">
+                <span class="impressum-subheadline">Datenschutz</span>
+                <span>Wir freuen uns, dass Sie unsere Website besuchen. Der Schutz und die Sicherheit Ihrer persönlichen
+                    Informationen bei der Nutzung unserer Website ist für uns sehr wichtig. Wir möchten Sie daher an
+                    dieser Stelle darüber informieren, welche Ihrer personenbezogenen Daten wir beim Besuch unserer
+                    Website erfassen und für welche Zwecke diese verwendet werden. Diese Datenschutzerklärung gilt für
+                    das Internetangebot von Lisa Sofie Mros Communication Coaching & Consulting, welches unter der
+                    Domain lisasofiemros-communications.com sowie den verschiedenen Subdomains („unsere Website“)
+                    erreichbar ist.</span>
+                <span class="impressum-subheadline">Wer ist verantwortlich und wie erreiche ich Sie?</span>
+                <span>Verantwortlich für die Verarbeitung personenbezogener Daten im Sinne der
+                    EU-Datenschutz-Grundverordnung (DSGVO).</span>
+                <span>Lisa Sofie Mros Communication Coaching & Consulting</span>
+                <span>Geschäftsführerin: Lisa Sofie Mros</span>
+                <span>Ochsenwerder Elbdeich 235</span>
+                <span>21037 Hamburg</span>
+                <span>Deutschland</span>
+                <span>E-Mail: lisa.sofie.mros@gmail.com</span>
+                <span>Website: www.lisasofiemros-communications.com</span>
+
+                <span class="impressum-subheadline">Worum geht es?</span>
+                <span>Diese Datenschutzerklärung erfüllt die gesetzlichen Anforderungen an die Transparenz bei der
+                    Verarbeitung personenbezogener Daten. Dies sind alle Informationen, die sich auf eine identifizierte
+                    oder identifizierbare natürliche Person beziehen. Hierzu gehören beispielsweise Informationen wie
+                    Ihr Name, Ihr Alter, Ihre Anschrift, Ihre Telefonnummer, Ihr Geburtsdatum, Ihre E-Mail-Adresse, Ihre
+                    IP-Adresse oder das Nutzerverhalten beim Besuch einer Website. Informationen, bei denen wir keinen
+                    (oder nur mit einem unverhältnismäßigen Aufwand) Bezug zu Ihrer Person herstellen können, z.B. durch
+                    Anonymisierung, sind keine personenbezogenen Daten. Die Verarbeitung von personenbezogenen Daten
+                    (bspw. das Erheben, das Abfragen, die Verwendung, die Speicherung oder die Übermittlung) bedarf
+                    immer einer gesetzlichen Grundlage und eines definierten Zwecks.
+                    Gespeicherte personenbezogene Daten werden gelöscht, sobald der Zweck der Verarbeitung erreicht
+                    wurde und es keine rechtmäßigen Gründe für eine weitere Aufbewahrung der Daten gibt. Wir informieren
+                    Sie in den einzelnen Verarbeitungsvorgängen über die konkreten Speicherfristen bzw. Kriterien für
+                    die Speicherung. Unabhängig davon, speichern wir Ihre personenbezogenen in Einzelfällen zur
+                    Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen und bei Vorliegen gesetzlicher
+                    Aufbewahrungspflichten.</span>
+
+                <span class="impressum-subheadline">Wer bekommt meine Daten?</span>
+                <span>Wir geben Ihre personenbezogenen Daten, die wir auf unserer Website verarbeiten nur dann an Dritte
+                    weiter, wenn dies für die Erfüllung der Zwecke erforderlich ist und im Einzelfall von der
+                    Rechtsgrundlage (z.B. Einwilligung oder Wahrung berechtigter Interessen) erfasst ist. Darüber hinaus
+                    geben wir im Einzelfall personenbezogene Daten an Dritte weiter, wenn dies der Geltendmachung,
+                    Ausübung
+                    oder Verteidigung von Rechtsansprüchen dient. Mögliche Empfänger können dann z.B.
+                    Strafverfolgungsbehörden, Rechtsanwälte, Wirtschaftsprüfer, Gerichte usw. sein.
+                    Soweit wir für den Betrieb unserer Website Dienstleister einsetzen, die im Rahmen einer
+                    Auftragsverarbeitung in unserem Auftrag personenbezogene Daten gem. Art. 28 DSGVO verarbeiten,
+                    können
+                    diese Empfänger Ihrer personenbezogenen Daten sein. Nähere Informationen zum Einsatz von
+                    Auftragsverarbeitern sowie von Webdiensten erhalten Sie in der Übersicht der einzelnen
+                    Verarbeitungsvorgänge.</span>
+
+                <span class="impressum-subheadline"> Setzen Sie Cookies ein?</span>
+                <span>Cookies sind kleine Textdateien, die im Rahmen Ihres Besuchs unserer Internetseiten von uns an den
+                    Browser Ihres Endgeräts gesendet und dort gespeichert werden. Alternativ zum Einsatz von Cookies
+                    können
+                    Informationen auch im lokalen Speicher (local storage) Ihres Browsers gespeichert werden. Einige
+                    Funktionen unserer Internetseite können ohne den Einsatz von Cookies bzw. local storage nicht
+                    angeboten
+                    werden (technisch notwendige Cookies). Andere Cookies ermöglichen uns hingegen verschiedene
+                    Analysen,
+                    sodass wir beispielsweise in der Lage sind, den von Ihnen verwendeten Browser bei einem erneuten
+                    Besuch
+                    unserer Webseite wiederzuerkennen und verschiedene Informationen an uns zu übermitteln (nicht
+                    notwendige
+                    Cookies). Mithilfe von Cookies können wir unter anderem unser Internetangebot für Sie
+                    nutzerfreundlicher
+                    und effektiver gestalten, indem wir etwa Ihre Nutzung unserer Website nachvollziehen und Ihre
+                    bevorzugten Einstellungen (bspw. Länder- und Spracheneinstellungen) feststellen. Sofern Dritte über
+                    Cookies Informationen verarbeiten, erheben diese die Informationen direkt über Ihren Browser.
+                    Cookies
+                    richten auf Ihrem Endgerät keinen Schaden an. Sie können keine Programme ausführen und keine Viren
+                    enthalten.
+                    Über die jeweiligen Dienste, für die wir Cookies einsetzen, informieren wir in den einzelnen
+                    Verarbeitungsvorgängen. Ausführliche Informationen zu den eingesetzten Cookies finden Sie in den
+                    Cookie-Einstellungen.</span>
+
+                <span class="impressum-subheadline">Welche Rechte habe ich?</span>
+                <span>Unter den Voraussetzungen der gesetzlichen Vorschriften der Datenschutz-Grundverordnung (DSGVO)
+                    sowie
+                    des Bundesdatenschutzgesetzes (BDSG) haben Sie als betroffene Person folgende Rechte:
+                    Auskunft gem. Art. 15 DSGVO, § 34 BDSG über die zu Ihrer Person gespeicherten Daten in Form von
+                    aussagekräftigen Informationen zu den Einzelheiten der Verarbeitung sowie eine Kopie Ihrer Daten;
+                    Berichtigung gem. Art. 16 DSGVO von unrichtigen oder unvollständigen Daten, die bei uns gespeichert
+                    sind;
+                    Löschung gem. Art. 17 DSGVO der bei uns gespeicherten Daten, soweit die Verarbeitung nicht zur
+                    Ausübung
+                    des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen
+                    Verpflichtung,
+                    aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von
+                    Rechtsansprüchen erforderlich ist;
+                    Einschränkung der Verarbeitung gem. Art. 18 DSGVO, soweit die Richtigkeit der Daten bestritten wird,
+                    die
+                    Verarbeitung unrechtmäßig ist, wir die Daten nicht mehr benötigen und Sie deren Löschung ablehnen,
+                    weil
+                    Sie diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen oder Sie
+                    Widerspruch gegen die Verarbeitung gem. Art. 21 DSGVO erhoben haben.
+                    Datenübertragbarkeit gem. Art. 20 DSGVO, soweit Sie uns personenbezogene Daten im Rahmen einer
+                    Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO oder auf Grundlage eines Vertrages gem. Art. 6 Abs. 1
+                    lit.
+                    b DSGVO bereitgestellt haben und diese durch uns mithilfe automatisierter Verfahren verarbeitet
+                    wurden.
+                    Sie erhalten Ihre Daten in einem strukturierten, gängigen und maschinenlesbaren Format bzw. wir
+                    übermitteln die Daten direkt an einen anderen Verantwortlichen, soweit dies technisch machbar ist.
+                    Widerspruch gem. Art. 21 DSGVO gegen die Verarbeitung Ihrer personenbezogenen Daten, soweit diese
+                    auf
+                    Grundlage des Art. 6 Abs. 1 lit. e, f DSGVO erfolgt und dafür Gründe vorliegen, die sich aus Ihrer
+                    besonderen Situation ergeben oder sich der Widerspruch gegen Direktwerbung richtet. Das Recht auf
+                    Widerspruch besteht nicht, wenn überwiegende, zwingende schutzwürdige Gründe für die Verarbeitung
+                    nachgewiesen werden oder die Verarbeitung zur Geltendmachung, Ausübung oder Verteidigung von
+                    Rechtsansprüchen erfolgt. Soweit das Recht auf Widerspruch bei einzelnen Verarbeitungsvorgängen
+                    nicht
+                    besteht, ist dies dort angegeben.
+                    Widerruf gem. Art. 7 Abs. 3 DSGVO Ihrer erteilten Einwilligung mit Wirkung für die Zukunft.
+                    Beschwerde gem. Art. 77 DSGVO bei einer Aufsichtsbehörde, wenn Sie der Ansicht sind, die
+                    Verarbeitung
+                    Ihrer personenbezogenen Daten verstößt gegen die DSGVO. In der Regel können Sie sich an die
+                    Aufsichtsbehörde Ihres üblichen Aufenthaltsortes, Ihres Arbeitsplatzes oder unseres
+                    Unternehmenssitzes
+                    wenden.</span>
+
+                <span class="impressum-subheadline"> Wie werden meine Daten im Einzelnen verarbeitet?</span>
+                <span>Nachfolgend informieren wir Sie über die einzelnen Verarbeitungsvorgänge, den Umfang und den Zweck
+                    der
+                    Datenverarbeitung, die Rechtsgrundlage, die Pflicht zur Bereitstellung Ihrer Daten und die jeweilige
+                    Speicherdauer. Eine automatisierte Entscheidung im Einzelfall, einschließlich Profiling findet nicht
+                    statt.</span>
+
+                <span class="impressum-subheadline-topic">Bereitstellung der Website</span>
+                <span class="impressum-subheadline-subtopic">Art und Umfang der Verarbeitung</span>
+                <span>Bei Aufruf und Nutzung unserer Website erheben wir die personenbezogenen Daten, die Ihr Browser
+                    automatisch an unseren Server übermittelt. Die folgenden Informationen werden temporär in einem sog.
+                    Logfile gespeichert:
+                    <span>IP-Adresse des anfragenden Rechners</span>
+                    <span>Datum und Uhrzeit des Zugriffs</span>
+                    <span>Name und URL der abgerufenen Datei</span>
+                    <span>Website, von der aus der Zugriff erfolgt (Referrer-URL)</span>
+                    <span>Verwendeter Browser und ggf. das Betriebssystem Ihres Rechners, sowie der Name Ihres
+                        Access-Providers
+                        Unsere Website wird nicht von uns selbst gehostet, sondern bei einem Dienstleister, der für den
+                        Zweck
+                        der Bereitstellung der Website die zuvor genannten Daten in unserem Auftrag gem. Art. 28 DSGVO
+                        verarbeitet.</span>
+
+
+                    <span class="impressum-subheadline"> Zweck und Rechtsgrundlage</span>
+                    <span>
+                        Die Verarbeitung erfolgt zur Wahrung unseres überwiegenden berechtigten Interesses zur Anzeige
+                        unserer Website und Gewährleistung der Sicherheit und Stabilität auf Grundlage des Art. 6 Abs.
+                        lit. f
+                        DSGVO. Die Erfassung der Daten und die Speicherung in Logfiles ist für den Betrieb der Website
+                        zwingend
+                        erforderlich. Ein Widerspruchsrecht gegen die Verarbeitung besteht aufgrund der Ausnahme nach
+                        Art. 21 Abs. 1 DSGVO nicht. Soweit die weitergehende Speicherung der Logfiles gesetzlich
+                        vorgeschrieben
+                        ist, erfolgt die Verarbeitung auf Grundlage des Art. 6 Abs. 1 lit. c DSGVO. Es besteht keine
+                        gesetzliche oder vertragliche Pflicht zur Bereitstellung der Daten, allerdings ist der Aufruf
+                        unserer Website
+                        ohne Bereitstellung der Daten technisch nicht möglich.</span>
+
+                    <span class="impressum-subheadline">Speicherdauer</span>
+                    <span>
+                        Die vorgenannten Daten werden für die Dauer der Anzeige der Website sowie aus technischen
+                        Gründen
+                        darüber hinaus für maximal 35 gespeichert.</span>
+
+                    <span class="impressum-subheadline-topic">Supportanfrage</span>
+                    <span class="impressum-subheadline-subtopic">Art und Umfang der Verarbeitung</span>
+                    <span>
+                        Die vorgenannten Daten werden für die Dauer der Anzeige der Website sowie aus technischen
+                        Gründen darüber hinaus für maximal 35 gespeichert.</span>
+
+                    <span class="impressum-subheadline">Zweck und Rechtsgrundlage</span>
+                    <span>
+                        Die Verarbeitung Ihrer Daten durch Nutzung unseres Kontaktformulars erfolgt zum Zweck der
+                        Kommunikation und Bearbeitung Ihrer Anfrage auf Grundlage Ihrer Einwilligung gem. Art. 6 Abs. 1
+                        lit.
+                        a DSGVO. Soweit sich Ihre Anfrage auf ein bestehendes Vertragsverhältnis mit uns bezieht,
+                        erfolgt
+                        die Verarbeitung zum Zweck der Vertragserfüllung auf Grundlage des Art. 6 Abs. 1 lit. b DSGVO.
+                        Es
+                        besteht keine gesetzliche oder vertragliche Pflicht zur Bereitstellung Ihrer Daten, jedoch ist
+                        die
+                        Bearbeitung Ihrer Anfrage ohne die Bereitstellung der Informationen der Pflichtfelder nicht
+                        möglich.
+                        Soweit Sie diese Daten nicht bereitstellen möchten, kontaktieren Sie uns bitte mit anderen
+                        Mitteln.</span>
+                    <span class="impressum-subheadline">Speicherdauer</span>
+                    <span>
+                        Soweit Sie das Kontaktformular auf Grundlage Ihrer Einwilligung verwenden, speichern wir die
+                        erhobenen Daten jeder Anfrage für die Dauer von drei Jahren, beginnend mit der Erledigung Ihrer
+                        Anfrage oder bis zum Widerruf Ihrer Einwilligung.</span>
+
+                    <span class="impressum-subheadline-topic">Newsletter mit Active Campaign</span>
+                    <span class="impressum-subheadline-subtopic">Art und Umfang der Verarbeitung</span>
+                    <span>
+                        Sofern Sie sich auf unserer Website zum Empfang unseres Newsletters anmelden, erheben wir Ihre
+                        E-Mail-Adresse sowie Ihren Namen und speichern diese Informationen zusammen mit dem Datum der
+                        Anmeldung und Ihrer IP-Adresse. Im Anschluss erhalten Sie eine E-Mail, in der Sie die Anmeldung
+                        zum
+                        Newsletter bestätigen müssen (Double-Opt-in). Sollten Sie nicht innerhalb von 168 Stunden die
+                        Anmeldung bestätigen, verfällt diese automatisch und die Daten werden nicht für den
+                        Newsletterversand verarbeitet.
+                        Zum Versand des Newsletters nutzen wir einen Service der ActiveCampaign, die Ihre
+                        personenbezogenen
+                        Daten in unserem Auftrag gem. Art. 28 DSGVO verarbeiten. Eine Weitergabe Ihrer Daten an Dritte
+                        erfolgt nicht.
+                        Wir haben auf unserer Website Komponenten des Dienstes ActiveCampaign integriert. ActiveCampaign
+                        ist
+                        ein Dienst der ActiveCampaign, LLC und bietet Marketing-Automatisierung für Unternehmen an.
+                        ActiveCampaign wird verwendet, um in Formularen eingegebene Daten mittels Cookies zu speichern,
+                        zu
+                        übertragen, Marketing-E-Mails und automatisierte Nachrichten zu versenden und zielgerichtete
+                        Kampagnen zu erstellen.
+                        Darüber hinaus bietet ActiveCampaign uns die Möglichkeit zu analysieren, ob die versendeten
+                        E-Mails
+                        geöffnet wurden, wie viele Nutzer eine E-Mail erhalten haben und ob sich Nutzer nach Erhalt
+                        einer
+                        E-Mail von dem Newsletter ausgetragen haben.
+                        Die Weitergabe Ihrer Daten erfolgt in diesem Fall an den Betreiber von ActiveCampaign, die
+                        ActiveCampaign, LLC, 1 North Dearborn Street, 5th floor Chicago, IL 60602, USA.</span>
+
+                    <span class="impressum-subheadline">Zweck und Rechtsgrundlage</span>
+                    <span>Wir verarbeiten Ihre Daten zum Zweck des Newsletterversands auf Grundlage Ihrer Einwilligung
+                        gem.
+                        Art. 6 Abs. 1 lit. a DSGVO. Durch Abmeldung vom Newsletter können Sie jederzeit mit Wirkung für
+                        die
+                        Zukunft Ihren Widerruf gem. Art. 7 Abs. 3 DSGVO erklären. Es besteht keine gesetzliche oder
+                        vertragliche Pflicht zur Bereitstellung Ihrer Daten, jedoch ist ein Versand des Newsletters ohne
+                        die
+                        Bereitstellung Ihrer Daten nicht möglich.
+                        Der Einsatz von ActiveCampaign erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit.
+                        a.
+                        DSGVO und § 25 Abs. 1 TTDSG.</span>
+
+                    <span class="impressum-subheadline">Speicherdauer</span>
+                    <span>Nach Anmeldung zum Newsletter speichern wir die Daten maximal 168 bis zur Bestätigung der
+                        Anmeldung. Nach erfolgreicher Bestätigung speichern wir Ihre Daten bis zum Widerruf Ihrer
+                        Einwilligung (Abmeldung vom Newsletter) sowie aus technischen Gründen darüber hinaus maximal 7
+                        Tage.
+                        Die konkrete Speicherdauer der verarbeiteten Daten ist nicht durch uns beeinflussbar, sondern
+                        wird
+                        von ActiveCampaign, LLC bestimmt. Weitere Hinweise finden Sie in der Datenschutzerklärung für
+                        ActiveCampaign: <a
+                            href="https://www.activecampaign.com/legal/privacy-policy">https://www.activecampaign.com/legal/privacy-policy</a></span>
+
+                    <span class="impressum-subheadline-topic">Registrierung eines Kundenkontos</span>
+                    <span class="impressum-subheadline-subtopic">Art und Umfang der Verarbeitung</span>
+                    <span>
+                        Im Rahmen der Bestellabwicklung erheben wir Ihre personenbezogenen Daten zur Registrierung eines
+                        Kundenkontos. Sie können dabei wählen, ob Sie als Gast bestellen oder ein dauerhaftes
+                        Benutzerkonto
+                        registrieren möchten. Die Informationen, die während der Registrierung über die Pflichtfelder
+                        erhoben werden, sind in beiden Fällen identisch und für die Abwicklung der Bestellung im
+                        Onlineshop
+                        erforderlich. Bei Registrierung eines dauerhaften Benutzerkontos erheben wir zusätzlich ein von
+                        Ihnen selbst festgelegtes Passwort. Darüber hinaus können Sie freiwillig zusätzliche
+                        Informationen
+                        bereitstellen, die aus Ihrer Sicht für die Abwicklung der Bestellung erforderlich sind.
+                        Eine Weitergabe Ihrer personenbezogenen Daten an Dritte (z.B. Versanddienstleister / Spedition)
+                        und
+                        Auftragsverarbeiter gem. Art. 28 DSGVO erfolgt nur soweit dies für die Abwicklung der Bestellung
+                        erforderlich ist.</span>
+
+                    <span class="impressum-subheadline">Zweck und Rechtsgrundlage</span>
+                    <span>Wir verarbeiten Ihre personenbezogenen Daten zum Zweck der Registrierung eines Kundenkontos
+                        zur
+                        Erfüllung eines Vertrags mit Ihnen gem. Art. 6 Abs. 1 lit. b DSGVO. Es besteht eine vertragliche
+                        Pflicht zur Bereitstellung Ihrer Daten soweit es sich auf die Pflichtfelder bezieht, da diese
+                        Informationen zur Identifizierung Ihrer Person sowie zur Vertragserfüllung unsererseits
+                        erforderlich
+                        sind. Eine gesetzliche Pflicht zur Bereitstellung der Daten besteht nicht. Ohne die
+                        Bereitstellung
+                        dieser Informationen ist die Bestellung in unserem Onlineshop und somit ein Vertragsschluss
+                        nicht
+                        möglich. Für die zusätzlich freiwillig angegebenen Informationen besteht keine Pflicht zur
+                        Bereitstellung. Die Bestellung in unserem Onlineshop ist auch ohne die Preisgabe der
+                        freiwilligen
+                        Angaben möglich.
+                        Die ergänzende Verarbeitung Ihres Passworts zur Registrierung des dauerhaften Benutzerkontos
+                        erfolgt
+                        zum Zweck der Bereitstellung eines Kundenkontos und zur Darstellung Ihrer bisherigen Käufe sowie
+                        zur
+                        Speicherung Ihrer kaufbezogenen Daten (z.B. Speicherung von Rechnungsanschrift, verschiedene
+                        Lieferanschriften) auf Grundlage Ihrer Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO. Durch die
+                        Löschung Ihres Kundenkontos können Sie jederzeit mit Wirkung für die Zukunft Ihren Widerruf gem.
+                        Art. 7 Abs. 3 DSGVO erklären.</span>
+
+                    <span class="impressum-subheadline">Speicherdauer</span>
+                    <span>Wenn Sie als Gast bestellen, speichern Ihre personenbezogenen Daten bis zur vollständigen
+                        Abwicklung Ihrer Bestellung (Vertragsende). Bei Registrierung eines dauerhaften Kundenkontos
+                        speichern wie die kaufbezogenen Daten über das Ende des Vertrages hinaus, bis zum Widerruf Ihrer
+                        Einwilligung (Löschen des Kundenkontos). In beiden Fällen erfolgt eine weitere Speicherung Ihrer
+                        Daten nur, sofern gesetzliche Aufbewahrungspflichten (z.B. Steuer- und Handelsrecht)
+                        bestehen.</span>
+
+                    <span class="impressum-subheadline-topic">Kommentarfunktion im Blog</span>
+                    <span class="impressum-subheadline-subtopic">Art und Umfang der Verarbeitung</span>
+                    <span>
+                        Sofern Sie die Kommentarfunktion auf unserer Website verwenden, erheben wir Ihre(n) Name,
+                        E-Mail-Adresse, Kommentar / Mitteilung und speichern diese Daten zusammen mit der IP-Adresse und
+                        dem
+                        Datum.
+                        Für die Nutzung der Kommentarfunktion erfolgt keine Weitergabe Ihrer personenbezogenen Daten an
+                        andere Empfänger.</span>
+
+                    <span class="impressum-subheadline">Zweck und Rechtsgrundlage</span>
+                    <span>Die Verarbeitung Ihrer personenbezogenen Daten erfolgt zum Zweck der Kommentierung von
+                        Inhalten
+                        unserer Website auf Grundlage Ihrer Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO. Durch formlose
+                        Mitteilung [Löschen Ihrer Kommentare] können Sie jederzeit mit Wirkung für die Zukunft Ihren
+                        Widerruf gem. Art. 7 Abs. 3 DSGVO erklären. Es besteht keine gesetzliche oder vertragliche
+                        Pflicht
+                        zur Bereitstellung Ihrer Daten, jedoch ist die Nutzung der Kommentarfunktion ohne die Preisgabe
+                        Ihrer Daten nicht möglich.</span>
+
+                    <span class="impressum-subheadline">Speicherdauer</span>
+                    <span>Wir speichern Ihre personenbezogenen Daten bis zum Widerruf Ihrer Einwilligung, sowie aus
+                        technischen Gründen darüber hinaus maximal 7 Tage.</span>
+
+                    <span class="impressum-subheadline-topic">Präsenzen auf Social-Media-Plattformen</span>
+                    <span>Wir unterhalten auf den unten genannten Netzwerken sog. Fan-Pages bzw. Accounts oder Kanäle,
+                        um
+                        Ihnen auch innerhalb von sozialen Netzwerken Informationen und Angebote bereitzustellen und
+                        Ihnen
+                        weitere Wege anzubieten, Kontakt zu uns aufzunehmen und sich über unsere Angebote zu
+                        informieren. Im
+                        Folgenden informieren wir Sie darüber, welche Daten wir bzw. das jeweilige soziale Netzwerk von
+                        Ihnen im Zusammenhang mit dem Aufruf und der Nutzung unserer Fan-Pages/Accounts von Ihnen
+                        verarbeiten.</span>
+
+                    <span class="impressum-subheadline">Daten, die wir von Ihnen verarbeiten</span>
+                    <span>Wenn Sie per Messenger oder via Direct Message über das jeweilige sozialen Netzwerk Kontakt zu
+                        uns
+                        aufnehmen möchten, verarbeiten wir in der Regel Ihren Nutzernamen, über den Sie uns kontaktieren
+                        und
+                        speichern ggf. weitere von Ihnen mitgeteilte Daten soweit dies zur Bearbeitung/Beantwortung
+                        Ihres
+                        Anliegens erforderlich ist.
+                        Rechtsgrundlage ist Art. 6 Abs. 1 Satz 1 f) DSGVO (Verarbeitung ist erforderlich zur Wahrung
+                        berechtigter Interessen des Verantwortlichen).</span>
+
+                    <span class="impressum-subheadline">(Statische) Nutzungs-Daten, die wir von den sozialen Netzwerken
+                        erhalten</span>
+                    <span>Wir erhalten über Insights-Funktionalitäten automatisiert bereitgestellte Statistiken
+                        betreffend
+                        unserer Accounts. Die Statistiken enthalten u.a. die Gesamtanzahl von Seitenaufrufen, Gefällt
+                        mir-Angaben, Angaben zu Seitenaktivitäten und Beitragsinteraktionen, Reichweiten,
+                        Video-Aufrufe/Ansichten sowie Angaben zum Anteil Männer/Frauen unter unseren Fans/Followern.
+                        Die Statistiken enthalten lediglich aggregierte und nicht auf einzelne Personen beziehbare
+                        Daten.
+                        Sie sind für uns hierüber nicht identifizierbar.</span>
+
+                    <span class="impressum-subheadline">Welche Daten die sozialen Netzwerke von Ihnen verarbeiten</span>
+                    <span>Um die Inhalte unserer Fan-Pages bzw. Accounts betrachten zu können, müssen Sie nicht Mitglied
+                        des
+                        jeweiligen sozialen Netzwerks sein und ist insoweit kein Nutzerkonto für das jeweilige soziale
+                        Netzwerk erforderlich.
+                        Bitte beachten Sie aber, dass die sozialen Netzwerke bei Aufruf des jeweiligen sozialen
+                        Netzwerkes
+                        Daten auch von Website-Besuchern ohne Nutzerkonto erfassen und speichern (z.B. technische Daten,
+                        um
+                        Ihnen die Website anzeigen zu können) und Cookies und ähnliche Technologien einsetzen, worauf
+                        wir
+                        keinerlei Einfluss haben. Einzelheiten hierzu finden Sie in den Datenschutzbestimmungen des
+                        jeweiligen sozialen Netzwerks (siehe die entsprechenden Links oben)
+                        Soweit Sie mit den Inhalten auf unseren Fan-Pages/Accounts interagieren wollen, z.B. unsere
+                        Postings/Beiträge kommentieren, teilen oder liken wollen und/oder über Messenger-Funktionen
+                        Kontakt
+                        zu uns aufnehmen möchten, ist eine vorherige Registrierung bei dem jeweiligen sozialen Netzwerk
+                        und
+                        die Angabe personenbezogener Daten erforderlich.
+                        Wir haben keinen Einfluss auf die Datenverarbeitung durch die sozialen Netzwerke im Rahmen der
+                        Nutzung durch Sie. Unserem Kenntnisstand nach werden Ihre Daten insbesondere im Zusammenhang mit
+                        der
+                        Zur-Verfügung-Stellung der Dienste des jeweiligen sozialen Netzwerks gespeichert und
+                        verarbeitet,
+                        ferner zur Analyse des Nutzungsverhaltens (unter Einsatz von Cookies, Pixel/Web Beacons und
+                        ähnlichen Technologien) auf deren Basis auf Ihren Interessen basierende Werbung sowohl innerhalb
+                        als
+                        auch außerhalb des jeweiligen sozialen Netzwerks ausgespielt wird. Es kann dabei nicht
+                        ausgeschlossen werden, dass Ihre Daten dabei von den sozialen Netzwerken auch außerhalb der
+                        EU/dem
+                        EWR gespeichert werden und an Dritte weitergegeben werden.
+                        Informationen u.a. zum genauen Umfang und den Zwecken der Verarbeitung Ihrer personenbezogenen
+                        Daten, der Speicherdauer/Löschung sowie Richtlinien zum Einsatz von Cookies und ähnlichen
+                        Technologien im Rahmen der Registrierung und Nutzung der sozialen Netzwerke finden Sie in den
+                        Datenschutzbestimmungen/Cookie-Richtlinien der sozialen Netzwerke. Dort finden Sie auch
+                        Informationen zu Ihren Rechten und Widerspruchsmöglichkeiten</span>
+
+                    <span class="impressum-subheadline-topic">Facebook-Seite</span>
+                    <span>Beim Besuch unserer Facebook-Seite erfasst Facebook u.a. Ihre IP-Adresse sowie weitere
+                        Informationen, die in Form von Cookies auf Ihrem PC vorhanden sind. Diese Informationen werden
+                        verwendet, um uns als Betreiber der Facebook-Seiten statistische Informationen über die
+                        Inanspruchnahme der Facebook-Seite zur Verfügung zu stellen. Nähere Informationen hierzu stellt
+                        Facebook unter folgendem Link zur Verfügung: <a
+                            href="https://de-de.facebook.com/help/pages/insights">https://de-de.facebook.com/help/pages/insights</a>
+                        Mittels der übermittelten statistischen Informationen ist es uns nicht möglich Rückschlüsse auf
+                        einzelne Nutzer zu ziehen. Wir greifen auf diese lediglich dahingehend zurück, um auf die
+                        Interessen
+                        unserer Nutzer eingehen zu können und unsere Onlinepräsenz fortgehend zu verbessern und die
+                        Qualität
+                        dieser zu sichern.
+                        Wir erheben Ihre Daten über unsere Fanpage lediglich, um eine mögliche Bereitstellung zur
+                        Kommunikation und Interaktion mit uns zu realisieren. Diese Erhebung umfasst i.d.R. Ihren Namen,
+                        Nachrichteninhalte, Kommentarinhalte sowie die von Ihnen „öffentlich“ bereitgestellten
+                        Profilinformationen.
+                        Die Verarbeitung Ihrer personenbezogenen Daten zu unseren oben genannten Zwecken erfolgt auf
+                        Grundlage unseres berechtigten betriebswirtschaftlichen und kommunikativen Interesses an dem
+                        Angebot
+                        eines Informations- und Kommunikationskanals gem. Art. 6 Abs. 1 f) DSGVO. Sollte Sie als Nutzer
+                        gegenüber dem jeweiligen Anbieter des sozialen Netzwerkes eine Einwilligung in die
+                        Datenverarbeitung
+                        abgegeben haben, erstreckt sich die Rechtsgrundlage der Verarbeitung auf Art. 6 Abs. 1 a), Art.
+                        7
+                        DSGVO.
+                        Auf Grund der Tatsache, dass die eigentliche Datenverarbeitung durch den Anbieter des sozialen
+                        Netzwerkes erfolgt, sind unsere Zugriffsmöglichkeiten auf Ihre Daten beschränkt. Lediglich der
+                        Anbieter des sozialen Netzwerkes ist zu einem vollständigen Zugriff auf Ihre Daten legitimiert.
+                        Auf
+                        Grund dessen, kann nur der Anbieter direkt entsprechende Maßnahmen zur Erfüllung Ihrer
+                        Nutzerrechte
+                        (Auskunftsanfrage, Löschverlangen, Widerspruch, etc.) ergreifen und umsetzen. Die Geltendmachung
+                        entsprechender Rechte erfolgt somit am effektivsten direkt gegenüber dem jeweiligen Anbieter.
+                        Wir sind gemeinsam mit Facebook verantwortlich für die personenbezogenen Inhalte der Fanseite.
+                        Betroffenenrechte können bei Facebook Ireland sowie bei uns geltend gemacht werden.
+                        Die primäre Verantwortung für die Verarbeitung von Insights-Daten liegt gemäß DSGVO bei Facebook
+                        und
+                        Facebook erfüllt sämtliche Pflichten aus der DSGVO im Hinblick auf die Verarbeitung von
+                        Insights-Daten, Facebook Ireland stellt das Wesentliche der Seiten-Insights-Ergänzung den
+                        betroffenen Personen zur Verfügung.
+                        Wir treffen keine Entscheidungen hinsichtlich der Verarbeitung von Insights-Daten und alle
+                        weiteren
+                        sich aus Art. 13 DSGVO ergebenden Informationen, darunter Rechtsgrundlage, Identität des
+                        Verantwortlichen und Speicherdauer von Cookies auf Nutzerendgeräten.
+                        Weitere Hinweise finden Sie direkt bei Facebook (Ergänzungsvereinbarung mit Facebook): <a
+                            href="https://www.facebook.com/legal/terms/page_controller_addendum">https://www.facebook.com/legal/terms/page_controller_addendum</a></span>
+
+                    <span class="impressum-subheadline-topic">Instagram-Seite</span>
+                    <span>
+                        Beim Besuch unserer Instagram-Seite erfasst Instagram u.a. Ihre IP-Adresse sowie weitere
+                        Informationen, die in Form von Cookies auf Ihrem PC vorhanden sind. Diese Informationen werden
+                        verwendet, um uns als Betreiber der Instagram-Seiten statistische Informationen über die
+                        Inanspruchnahme der Instagram-Seite zur Verfügung zu stellen. Nähere Informationen hierzu stellt
+                        Instagram unter folgendem Link zur Verfügung: http://de-de.facebook.com/help/pages/insights
+                        Mittels der übermittelten statistischen Informationen ist es uns nicht möglich Rückschlüsse auf
+                        einzelne Nutzer zu ziehen. Wir greifen auf diese lediglich dahingehend zurück, um auf die
+                        Interessen
+                        unserer Nutzer eingehen zu können und unsere Onlinepräsenz fortgehend zu verbessern und die
+                        Qualität
+                        dieser zu sichern.
+                        Wir erheben Ihre Daten über unsere Fanpage lediglich, um eine mögliche Bereitstellung zur
+                        Kommunikation und Interaktion mit uns zu realisieren. Diese Erhebung umfasst i.d.R. Ihren Namen,
+                        Nachrichteninhalte, Kommentarinhalte sowie die von Ihnen „öffentlich“ bereitgestellten
+                        Profilinformationen.
+                        Die Verarbeitung Ihrer personenbezogenen Daten zu unseren oben genannten Zwecken erfolgt auf
+                        Grundlage unseres berechtigten betriebswirtschaftlichen und kommunikativen Interesses an dem
+                        Angebot
+                        eines Informations- und Kommunikationskanals gem. Art. 6 Abs. 1 f) DSGVO. Sollte Sie als Nutzer
+                        gegenüber dem jeweiligen Anbieter des sozialen Netzwerkes eine Einwilligung in die
+                        Datenverarbeitung
+                        abgegeben haben, erstreckt sich die Rechtsgrundlage der Verarbeitung auf Art. 6 Abs. 1 a), Art.
+                        7
+                        DSGVO.
+                        Auf Grund der Tatsache, dass die eigentliche Datenverarbeitung durch den Anbieter des sozialen
+                        Netzwerkes erfolgt, sind unsere Zugriffsmöglichkeiten auf Ihre Daten beschränkt. Lediglich der
+                        Anbieter des sozialen Netzwerkes ist zu einem vollständigen Zugriff auf Ihre Daten legitimiert.
+                        Auf
+                        Grund dessen, kann nur der Anbieter direkt entsprechende Maßnahmen zur Erfüllung Ihrer
+                        Nutzerrechte
+                        (Auskunftsanfrage, Löschverlangen, Widerspruch, etc.) ergreifen und umsetzen. Die Geltendmachung
+                        entsprechender Rechte erfolgt somit am effektivsten direkt gegenüber dem jeweiligen Anbieter.
+                        Wir sind gemeinsam mit Instagram verantwortlich für die personenbezogenen Inhalte der Fanseite.
+                        Betroffenenrechte können bei Facebook Ireland sowie bei uns geltend gemacht werden.
+                        Die primäre Verantwortung für die Verarbeitung von Insights-Daten liegt gemäß DSGVO bei
+                        Instagram
+                        und Instagram erfüllt sämtliche Pflichten aus der DSGVO im Hinblick auf die Verarbeitung von
+                        Insights-Daten, Facebook Ireland stellt das Wesentliche der Seiten-Insights-Ergänzung den
+                        betroffenen Personen zur Verfügung.
+                        Wir treffen keine Entscheidungen hinsichtlich der Verarbeitung von Insights-Daten und alle
+                        weiteren
+                        sich aus Art. 13 DSGVO ergebenden Informationen, darunter Rechtsgrundlage, Identität des
+                        Verantwortlichen und Speicherdauer von Cookies auf Nutzerendgeräten.
+                        Weitere Hinweise finden Sie direkt bei Instagram (Ergänzungsvereinbarung mit Facebook):
+                        https://www.facebook.com/legal/terms/page_controller_addendum
+                    </span>
+                    <span class="impressum-subheadline-topic">LinkedIn-Seite</span>
+                    <span>
+                        LinkedIn ist ein soziales Netzwerk der LinkedIn Inc. mit Sitz in Sunnyvale, Kalifornien, USA,
+                        welches die Erstellung von privaten sowie beruflichen Profilen natürlicher Personen und
+                        Unternehmensprofilen ermöglicht. Benutzer können innerhalb des sozialen Netzwerks ihre
+                        bestehenden
+                        Kontakte pflegen und neue knüpfen.
+                        Unternehmen und andere Organisationen können Profile erstellen, auf denen Fotos und andere
+                        Unternehmensinformationen hochgeladen werden, um sich als Arbeitgeber zu präsentieren und
+                        Mitarbeiter einzustellen. Andere LinkedIn-Benutzer haben Zugriff auf diese Informationen und
+                        können
+                        ihre eigenen Artikel schreiben und diesen Inhalt mit anderen teilen. Der Schwerpunkt des
+                        Netzwerks
+                        liegt auf dem professionellen Austausch über Fachthemen mit Menschen, die die gleichen
+                        beruflichen
+                        Interessen haben.
+                        Bei der Nutzung oder dem Besuch des Netzwerks sammelt LinkedIn während der Nutzung bzw. des
+                        Besuches
+                        automatisch Daten von den Nutzern bzw. Besuchern, beispielsweise Nutzername, Jobtitel und
+                        IP-Adresse. Dies geschieht mit Hilfe verschiedener Tracking-Technologien. LinkedIn stellt Nutzen
+                        unter anderem auf Basis der so erhobenen Daten Informationen, Angebote und Empfehlungen bereit.
+                        Wir erheben Ihre Daten über unser Unternehmensprofil lediglich, um eine mögliche Bereitstellung
+                        zur
+                        Kommunikation und Interaktion mit uns zu realisieren. Diese Erhebung umfasst i.d.R. Ihren Namen,
+                        Nachrichteninhalte, Kommentarinhalte sowie die von Ihnen „öffentlich“ bereitgestellten
+                        Profilinformationen.
+                        Die Verarbeitung Ihrer personenbezogenen Daten zu unseren oben genannten Zwecken erfolgt auf
+                        Grundlage unseres berechtigten betriebswirtschaftlichen und kommunikativen Interesses an dem
+                        Angebot
+                        eines Informations- und Kommunikationskanals gem. Art. 6 Abs. 1 f DSGVO. Sollte Sie als Nutzer
+                        gegenüber dem jeweiligen Anbieter des sozialen Netzwerkes eine Einwilligung in die
+                        Datenverarbeitung
+                        abgegeben haben, erstreckt sich die Rechtsgrundlage der Verarbeitung auf Art. 6 Abs. 1 a, Art. 7
+                        DSGVO.
+                        Auf Grund der Tatsache, dass die eigentliche Datenverarbeitung durch den Anbieter des sozialen
+                        Netzwerkes erfolgt, sind unsere Zugriffsmöglichkeiten auf Ihre Daten beschränkt. Lediglich der
+                        Anbieter des sozialen Netzwerkes ist zu einem vollständigen Zugriff auf Ihre Daten legitimiert.
+                        Auf
+                        Grund dessen, kann nur der Anbieter direkt entsprechende Maßnahmen zur Erfüllung Ihrer
+                        Nutzerrechte
+                        (Auskunftsanfrage, Löschverlangen, Widerspruch, etc.) ergreifen und umsetzen. Die Geltendmachung
+                        entsprechender Rechte erfolgt somit am effektivsten direkt gegenüber dem jeweiligen Anbieter.
+                        Wir sind gemeinsam mit LinkedIn verantwortlich für die personenbezogenen Inhalte unseres
+                        Unternehmensprofils. Betroffenenrechte können bei der LinkedIn Inc. sowie bei uns geltend
+                        gemacht
+                        werden.
+                        Wir treffen keine Entscheidungen hinsichtlich der auf der Seite von LinkedIn mittels
+                        Tracking-Technologien erhobenen Daten.
+                        Weitere Informationen zu LinkedIn finden Sie unter: https://about.linkedin.com
+                        Weitere Informationen zum Datenschutz bei LinkedIn finden Sie unter:
+                        https://www.linkedin.com/legal/privacy-policy
+                        Weitere Informationen zur Speicherdauer/Löschung sowie Richtlinien zum Einsatz von Cookies und
+                        ähnlichen Technologien im Rahmen der Registrierung und Nutzung bei LinkedIn finden Sie unter:
+                        https://de.linkedin.com/legal/cookie-policy?trk=homepage-basic_footer-cookie-policy
+
+                        <span class="impressum-subheadline-topic">Google Ads</span>
+                        <span class="impressum-subheadline-subtopic">Art und Umfang der Verarbeitung</span>
+                        <span>
+
+                            Wir haben auf unserer Website Google Ads integriert. Google Ads ist ein Dienst von Google
+                            Ireland Limited, um Nutzern zielgerichtet Werbung anzuzeigen. Google Ads nutzt Cookies und
+                            weitere Browser-Technologien um Nutzerverhalten auszuwerten und Nutzer wiederzuerkennen.
+                            Google Ads sammelt Informationen über das Besucherverhalten auf verschiedenen Websites.
+                            Diese
+                            Informationen werden verwendet, um die Relevanz der Werbung zu optimieren. Des Weiteren
+                            liefert
+                            Google Ads gezielt Werbung auf der Grundlage von Verhaltensprofilen und geografischer Lage.
+                            Dem
+                            Anbieter werden Ihre IP-Adresse und weitere Identifikationsmerkmale wie Ihr User-Agent
+                            übermittelt.
+                            Wenn Sie bei einem Google Ireland Limited Dienst registriert sind, kann Google Ads den
+                            Besuch
+                            Ihrem Konto zuordnen. Selbst wenn Sie nicht bei Google Ireland Limited registriert sind oder
+                            sich nicht eingeloggt haben, ist es möglich, dass der Anbieter Ihre IP-Adresse und weitere
+                            Identifikationsmerkmale herausfindet und speichert.
+                            Die Weitergabe Ihrer Daten erfolgt in diesem Fall an den Betreiber von Google Ads, die
+                            Google
+                            Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+                        </span>
+                        <span class="impressum-subheadline">Zweck und Rechtsgrundlage</span>
+                        <span>
+                            Der Einsatz von Google Ads erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit.
+                            a.
+                            DSGVO und § 25 Abs. 1 TTDSG
+                            Wir beabsichtigen personenbezogenen Daten an Drittländer außerhalb des Europäischen
+                            Wirtschaftsraums, insbesondere die USA, zu übermitteln. Die Datenübermittlung in die USA
+                            erfolgt
+                            nach Art. 45 Abs. 1 DSGVO auf Grundlage des Angemessenheitsbeschluss der Europäischen
+                            Kommission. Die beteiligten US-Unternehmen und/oder deren US-Unterauftragnehmer sind nach
+                            dem
+                            EU-U.S. Data Privacy Framework (EU-U.S. DPF) zertifiziert.
+                            In Fällen, in denen kein Angemessenheitsbeschluss der Europäischen Kommission existiert
+                            (einschließlich der US-Unternehmen, die nicht nach EU-U.S. DPF zertifiziert sind) haben wir
+                            mit
+                            den Empfängern der Daten anderweitige geeignete Garantien im Sinne der Art. 44 ff. DSGVO
+                            vereinbart. Dies sind - sofern nicht anders angegeben - Standardvertragsklauseln der
+                            EU-Kommission gemäß Durchführungsbeschluss (EU) 2021/914 vom 4. Juni 2021. Eine Kopie dieser
+                            Standardvertragsklauseln können Sie unter
+                            https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32021D0914&from=DE einsehen.
+                            Zudem holen wir vor einem solchen Drittlandtransfer Ihre Einwilligung nach Art. 49 Abs. 1
+                            Satz 1
+                            lit. a. DSGVO ein, die Sie über die Einwilligung im Consent Manager (oder sonstigen
+                            Formularen,
+                            Registrierungen etc.) erteilen. Wir weisen Sie darauf hin, dass bei Drittlandübermittlungen
+                            im
+                            Detail unbekannte Risiken (z.B. die Datenverarbeitung durch Sicherheitsbehörden des
+                            Drittlandes,
+                            deren genauer Umfang und deren Folgen für Sie wir nicht kennen, auf die wir keinen Einfluss
+                            haben und von denen Sie unter Umständen keine Kenntnis erlangen) bestehen können.
+                        </span>
+                        <span class="impressum-subheadline">Speicherdauer</span>
+                        <span>
+                            Die konkrete Speicherdauer der verarbeiteten Daten ist nicht durch uns beeinflussbar,
+                            sondern
+                            wird von Google Ireland Limited bestimmt. Weitere Hinweise finden Sie in der
+                            Datenschutzerklärung für Google Ads: https://policies.google.com/privacy</span>
+
+                        <span class="impressum-subheadline-topic">Google DoubleClick</span>
+                        <span class="impressum-subheadline-subtopic">Art und Umfang der Verarbeitung</span>
+                        <span>
+                            Wir haben auf unserer Website Komponenten von Google DoubleClick integriert. DoubleClick ist
+                            eine Marke von Google, unter welcher vorwiegend spezielle Online-Marketing-Lösungen an
+                            Werbeagenturen und Verlage vermarktet werden. DoubleClick by Google überträgt sowohl mit
+                            jeder
+                            Impression als auch mit Klicks oder anderen Aktivitäten Daten auf den DoubleClick-Server.
+                            Jede dieser Datenübertragungen löst eine Cookie-Anfrage an den Browser der betroffenen
+                            Person
+                            aus. Akzeptiert der Browser diese Anfrage, setzt DoubleClick ein Cookie in Ihrem Browser.
+                            DoubleClick verwendet eine Cookie-ID, die zur Abwicklung des technischen Verfahrens
+                            erforderlich
+                            ist. Die Cookie-ID wird beispielsweise benötigt, um eine Werbeanzeige in einem Browser
+                            anzuzeigen. DoubleClick kann über die Cookie-ID zudem erfassen, welche Werbeanzeigen bereits
+                            in
+                            einem Browser eingeblendet wurden, um Doppelschaltungen zu vermeiden. Ferner ist es
+                            DoubleClick
+                            durch die Cookie-ID möglich, Conversions zu erfassen. Conversions werden beispielsweise dann
+                            erfasst, wenn einem Nutzer zuvor eine DoubleClick-Werbeanzeige eingeblendet wurde und dieser
+                            in
+                            der Folge mit dem gleichen Internetbrowser einen Kauf auf der Internetseite des
+                            Werbetreibenden
+                            vollzieht.
+                            Ein Cookie von DoubleClick enthält keine personenbezogenen Daten, kann aber zusätzliche
+                            Kampagnen-Kennungen enthalten. Eine Kampagnen-Kennung dient einer Identifizierung der
+                            Kampagnen,
+                            mit denen Sie auf anderen Websites bereits in Kontakt waren. Im Rahmen dieses Dienstes
+                            erhält
+                            Google Kenntnis über Daten, die Google auch dazu dienen, Provisionsabrechnungen zu
+                            erstellen.
+                            Google kann unter anderem nachvollziehen, dass Sie bestimmte Links auf unserer Website
+                            angeklickt haben. Die Weitergabe Ihrer Daten erfolgt in diesem Fall an den Betreiber von
+                            DoubleClick, die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+                            Weitere
+                            Informationen und die geltenden Datenschutzbestimmungen von DoubleClick by Google können
+                            unter
+                            https://policies.google.com/privacy abgerufen werden.
+                        </span>
+                        <span class="impressum-subheadline">Zweck und Rechtsgrundlage</span>
+                        <span>
+                            Wir verarbeiten Ihre Daten mit Hilfe des DoubleClick Cookies zum Zweck der Optimierung und
+                            Einblendung von Werbung auf Grundlage Ihrer Einwilligung gem. Art. 6 Abs. 1 lit. a. DSGVO
+                            und §
+                            25 Abs. 1 TTDSG. Das Cookie wird unter anderem dazu verwendet, nutzerrelevante Werbung zu
+                            schalten und anzuzeigen sowie Berichte zu Werbekampagnen zu erstellen oder diese zu
+                            verbessern.
+                            Ferner dient das Cookie dazu, Mehrfacheinblendungen derselben Werbung zu vermeiden. Durch
+                            jeden
+                            Aufruf einer der Einzelseite unserer Website, auf welcher eine DoubleClick-Komponente
+                            integriert
+                            wurde, wird Ihr Browser automatisch durch die jeweilige DoubleClick-Komponente veranlasst,
+                            Daten
+                            zum Zwecke der Online-Werbung und der Abrechnung von Provisionen an Google zu übermitteln.
+                            Es
+                            besteht keine gesetzliche oder vertragliche Pflicht zur Bereitstellung Ihrer Daten. Sofern
+                            Sie
+                            uns Ihre Einwilligung nicht erteilen, ist ein Besuch unserer Website ohne Einschränkung
+                            möglich,
+                            jedoch stehen ggf. nicht alle Funktionen vollumfänglich zur Verfügung.
+                            Wir beabsichtigen personenbezogenen Daten an Drittländer außerhalb des Europäischen
+                            Wirtschaftsraums, insbesondere die USA, zu übermitteln. Die Datenübermittlung in die USA
+                            erfolgt
+                            nach Art. 45 Abs. 1 DSGVO auf Grundlage des Angemessenheitsbeschluss der Europäischen
+                            Kommission. Die beteiligten US-Unternehmen und/oder deren US-Unterauftragnehmer sind nach
+                            dem
+                            EU-U.S. Data Privacy Framework (EU-U.S. DPF) zertifiziert.
+                            In Fällen, in denen kein Angemessenheitsbeschluss der Europäischen Kommission existiert
+                            (einschließlich der US-Unternehmen, die nicht nach EU-U.S. DPF zertifiziert sind) haben wir
+                            mit
+                            den Empfängern der Daten anderweitige geeignete Garantien im Sinne der Art. 44 ff. DSGVO
+                            vereinbart. Dies sind - sofern nicht anders angegeben - Standardvertragsklauseln der
+                            EU-Kommission gemäß Durchführungsbeschluss (EU) 2021/914 vom 4. Juni 2021. Eine Kopie dieser
+                            Standardvertragsklauseln können Sie unter
+                            https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32021D0914&from=DE einsehen.
+                            Zudem holen wir vor einem solchen Drittlandtransfer Ihre Einwilligung nach Art. 49 Abs. 1
+                            Satz 1
+                            lit. a. DSGVO ein, die Sie über die Einwilligung im Consent Manager (oder sonstigen
+                            Formularen,
+                            Registrierungen etc.) erteilen. Wir weisen Sie darauf hin, dass bei Drittlandübermittlungen
+                            im
+                            Detail unbekannte Risiken (z.B. die Datenverarbeitung durch Sicherheitsbehörden des
+                            Drittlandes,
+                            deren genauer Umfang und deren Folgen für Sie wir nicht kennen, auf die wir keinen Einfluss
+                            haben und von denen Sie unter Umständen keine Kenntnis erlangen) bestehen können.
+                        </span>
+                        <span class="impressum-subheadline">Speicherdauer</span>
+                        <span>
+                            Die konkrete Speicherdauer der verarbeiteten Daten ist nicht durch uns beeinflussbar,
+                            sondern
+                            wird von Google Ireland Limited bestimmt. Weitere Hinweise finden Sie in der
+                            Datenschutzerklärung für Google DoubleClick: https://policies.google.com/privacy
+                        </span>
+
+                        <span class="impressum-subheadline-topic">Google Optimize</span>
+                        <span class="impressum-subheadline-subtopic">Art und Umfang der Verarbeitung</span>
+                        <span>
+                            Wir verwenden Google Optimize von Google Ireland Limited, Gordon House, Barrow Street,
+                            Dublin 4,
+                            Irland, um sogenannte A/B-Tests an unserem Onlineangebot durchzuführen. Dabei werden
+                            zeitgleich
+                            verschiedene Versionen unseres Onlineangebotes veröffentlicht und gemessen, welche dieser
+                            Versionen benutzerfreundlicher ist.
+                            Beim Testen der Versionen können Daten wie das verwendete Betriebssystem, der User-Agent des
+                            Browsers und die Uhrzeit des Aufrufs erhoben werden, um den Erfolg der Version zu messen.
+                            Es werden Web-Tracking-Technologien verwendet, um oben genannte Daten mit der zu testenden
+                            Version unseres Onlineangebotes in Verbindung zu bringen.
+                        </span>
+                        <span class="impressum-subheadline">Zweck und Rechtsgrundlage</span>
+                        <span>
+                            Der Einsatz von Google Optimize erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1
+                            lit. a. DSGVO und § 25 Abs. 1 TTDSG.
+                        </span>
+                        <span class="impressum-subheadline">Speicherdauer</span>
+                        <span> Die konkrete Speicherdauer der verarbeiteten Daten ist nicht durch uns beeinflussbar,
+                            sondern
+                            wird von Google Ireland Limited bestimmt. Weitere Hinweise finden Sie in der
+                            Datenschutzerklärung für Google Optimize: https://policies.google.com/privacy</span>
+                    </span>
+                    <span class="impressum-subheadline-topic">Google Tag Manager</span>
+                    <span class="impressum-subheadline-subtopic"> Art und Umfang der Verarbeitung</span>
+                    <span>
+                        Wir nutzen den Google Tag Manager der Google Ireland Limited, Gordon House, Barrow Street,
+                        Dublin 4,
+                        Irland. Google Tag Manager wird verwendet, um Website-Tags über eine Oberfläche zu verwalten und
+                        ermöglicht es uns, die genaue Integration von Diensten auf unserer Website zu steuern.
+                        Dies gestattet uns zusätzliche Dienste flexibel zu integrieren, um den Zugriff der Benutzer auf
+                        unsere Website auszuwerten.
+                    </span>
+                    <span class="impressum-subheadline">Zweck und Rechtsgrundlage</span>
+                    <span>
+                        Der Einsatz von Google Tag Manager erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1
+                        lit.
+                        a. DSGVO und § 25 Abs. 1 TTDSG.
+                        Wir beabsichtigen personenbezogenen Daten an Drittländer außerhalb des Europäischen
+                        Wirtschaftsraums, insbesondere die USA, zu übermitteln. Die Datenübermittlung in die USA erfolgt
+                        nach Art. 45 Abs. 1 DSGVO auf Grundlage des Angemessenheitsbeschluss der Europäischen
+                        Kommission.
+                        Die beteiligten US-Unternehmen und/oder deren US-Unterauftragnehmer sind nach dem EU-U.S. Data
+                        Privacy Framework (EU-U.S. DPF) zertifiziert.
+                        In Fällen, in denen kein Angemessenheitsbeschluss der Europäischen Kommission existiert
+                        (einschließlich der US-Unternehmen, die nicht nach EU-U.S. DPF zertifiziert sind) haben wir mit
+                        den
+                        Empfängern der Daten anderweitige geeignete Garantien im Sinne der Art. 44 ff. DSGVO vereinbart.
+                        Dies sind - sofern nicht anders angegeben - Standardvertragsklauseln der EU-Kommission gemäß
+                        Durchführungsbeschluss (EU) 2021/914 vom 4. Juni 2021. Eine Kopie dieser
+                        Standardvertragsklauseln
+                        können Sie unter
+                        https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32021D0914&from=DE
+                        einsehen.
+                        Zudem holen wir vor einem solchen Drittlandtransfer Ihre Einwilligung nach Art. 49 Abs. 1 Satz 1
+                        lit. a. DSGVO ein, die Sie über die Einwilligung im Consent Manager (oder sonstigen Formularen,
+                        Registrierungen etc.) erteilen. Wir weisen Sie darauf hin, dass bei Drittlandübermittlungen im
+                        Detail unbekannte Risiken (z.B. die Datenverarbeitung durch Sicherheitsbehörden des Drittlandes,
+                        deren genauer Umfang und deren Folgen für Sie wir nicht kennen, auf die wir keinen Einfluss
+                        haben
+                        und von denen Sie unter Umständen keine Kenntnis erlangen) bestehen können.
+                    </span>
+                    <span class="impressum-subheadline">Speicherdauer</span>
+                    <span>
+                        Die konkrete Speicherdauer der verarbeiteten Daten ist nicht durch uns beeinflussbar, sondern
+                        wird
+                        von Google Ireland Limited bestimmt. Weitere Hinweise finden Sie in der Datenschutzerklärung für
+                        Google Tag Manager: https://marketingplatform.google.com/about/analytics/tag-manager/use-policy/
+                    </span>
+                    <span class="impressum-subheadline-topic">Instagram Plugin</span>
+                    <span class="impressum-subheadline-subtopic"> Art und Umfang der Verarbeitung</span>
+                    <span>
+                        Wir haben auf unserer Website Komponenten von Instagram Plugin integriert. Instagram Plugin ist
+                        ein
+                        Dienst der Meta Platforms Ireland Limited und bietet uns die Möglichkeit, Inhalte der Social
+                        Media
+                        Plattform zu aggregieren und auf unserer Website darzustellen.
+                        Wenn Sie auf diese Inhalte zugreifen, stellen Sie eine Verbindung zu Servern der Meta Platforms
+                        Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland her, wobei Ihre
+                        IP-Adresse und ggf. Browserdaten wie Ihr User-Agent übermittelt werden. Diese Daten werden
+                        ausschließlich zu den oben genannten Zwecken und zur Aufrechterhaltung der Sicherheit und
+                        Funktionalität von Instagram Plugin verarbeitet.
+                        Wenn ein Nutzer bei Meta Platforms Ireland Limited registriert ist, kann Instagram Plugin die
+                        angesehenen Inhalte dem Profil zuordnen.
+                    </span>
+                    <span class="impressum-subheadline">Zweck und Rechtsgrundlage</span>
+                    <span>
+                        Der Einsatz von Instagram Plugin erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1
+                        lit.
+                        a. DSGVO und § 25 Abs. 1 TTDSG.
+                    </span>
+                    <span class="impressum-subheadline">Speicherdauer</span>
+                    <span>
+                        Die konkrete Speicherdauer der verarbeiteten Daten ist nicht durch uns beeinflussbar, sondern
+                        wird
+                        von Meta Platforms Ireland Limited bestimmt. Weitere Hinweise finden Sie in der
+                        Datenschutzerklärung
+                        für Instagram Plugin: https://help.instagram.com/519522125107875
+                    </span>
+                </span>
+                <span class="impressum-subheadline">Stand Hamburg, 07. Juni 2024</span>
+        </div>
+        <footer id="footer" class="footer">
+        </footer>
+    </main>
+</body>
+
+</html>
